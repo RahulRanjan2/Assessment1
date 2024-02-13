@@ -64,8 +64,9 @@ span{
     font-weight: 500;
 }
 #chart{
-    width: 72%;
-    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #button{
@@ -124,12 +125,12 @@ button{
 }
 #investreason{
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     font-family:'Poppins';
-    line-height: 54px;
+    line-height: 45px;
     font-weight: 600;
-    width: 426px;
-    height: 108px;
+    width: 100%;
+    height: 20%;
 }
 .investtips{
     display: flex;
@@ -156,6 +157,7 @@ button{
     display: flex;
     justify-content: space-around;
     padding: 2%;
+    width: 95%;
 }
 .footerhead{
     color: white;
@@ -176,4 +178,28 @@ a{
     display: flex;
     justify-content:space-around;
     width: 40%;
+}
+td{
+    color: white;
+    font-size: 20px;
+    font-family:'Poppins';
+    line-height: 30px;
+    font-weight: 600; 
+}
+table{
+    border-spacing: 4rem 0rem;
+}
+.coinname{
+    color: white;
+    font-size: 20px;
+    font-family:'Poppins';
+    line-height: 24px;
+    font-weight: 700;  
+}
+.shortname{
+    color: #858585;
+    font-size: 16px;
+    font-family:'Poppins';
+    line-height: 30px;
+    font-weight: 400; 
 }
